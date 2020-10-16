@@ -1,11 +1,67 @@
 body {
-    background-color: darkgrey
+    background-color: rgb(5, 4, 4)
+    font-family: 'Graphik', Helvetica, Arial, sans-serif
   }
 
-h1 {
-  color: chartreuse;
-position: relative;
+  h2 {
+    color: yellow;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 16px;
+  position: relative;
+  }
+
+  h1 {
+    color: yellow;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 16px;
+  position: relative;
+  }
+
+  h4 {
+    color: yellow;
+  position: relative;
+  }
+
+  h5 {
+    color: #2DBD9D;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+  position: relative;
+  }
+
+
+
+.mainDiv_combinedMastheadAndRibbon {
+  display: flex;
 }
 
-.Ribbon {
+.masthead_backgroundImage {
+  display:inline-block
+  width: 1423px;
+  height: 711px;
+}
+
+.ribbon_mainContainer {
+  flex-direction: row;
   background: linear-gradient(318.68deg, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
+  width: 1423px;
+  height: 150px;
+  (min-width: 1024px)
+
+
+.getBundleButton {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
